@@ -1,0 +1,833 @@
+2015-10-11 05:10:15.416 MCHackathon[15121:5189937] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/yoelnunez/Library/Developer/CoreSimulator/Devices/097CEB04-91F2-4214-8643-51C1B9B68348/data/Containers/Data/Application/9B6EDA25-4D97-4D0F-AAC4-5B2212FDC8D0/Library/Cookies/Cookies.binarycookies
+2015-10-11 05:10:15.667 MCHackathon[15121:5189937] You've implemented -[<UIApplicationDelegate> application:didReceiveRemoteNotification:fetchCompletionHandler:], but you still need to add "remote-notification" to the list of your supported UIBackgroundModes in your Info.plist.
+2015-10-11 05:10:15.691 MCHackathon[15121:5189937] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2015-10-11 05:10:15.772 MCHackathon[15121:5189937] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2015-10-11 05:10:15.778 MCHackathon[15121:5190031] [INFO] [WL_INIT] -[WLImpl initWL] in WLImpl.m:121 :: App is using MFP Cordova Plugin
+2015-10-11 05:10:15.796 MCHackathon[15121:5189937] Unbalanced calls to begin/end appearance transitions for <UIViewController: 0x7c1a9030>.
+2015-10-11 05:10:15.815 MCHackathon[15121:5190031] [DEBUG] [WL_CONFIG] -[WLConfig init] in WLConfig.m:71 :: {
+    "application id" = "com_ibm_MCHackathon";
+    "application version" = "1.0.0";
+    buildtime = 1444504674442;
+    environment = iphone;
+    host = "127.0.0.1";
+    ignoredFileExtensions = "png, jpg, jpeg, gif, mp4, mp3";
+    platformVersion = "7.1.0.0";
+    port = 10080;
+    protocol = http;
+    testWebResourcesChecksum = false;
+    wlAppFamily = "";
+    wlMainFile = "index.html";
+    wlSecureDirectUpdatePublicKey = "";
+    wlServerContext = "/BackendRuntime/";
+    wlShareCookies = "";
+    wlShareUserCert = false;
+    wlUid = "r7vTHIe5LI68uoNWTwP0mA==";
+}
+2015-10-11 05:10:15.829 MCHackathon[15121:5190031] [DEBUG] [WL_INIT] -[WLImpl initWL] in WLImpl.m:127 :: At first launch
+2015-10-11 05:10:15.837 MCHackathon[15121:5190031] [DEBUG] [WL_INIT] -[WLImpl initWL] in WLImpl.m:153 :: Web resources should not be extracted.
+2015-10-11 05:10:16.304 MCHackathon[15121:5189937] Apache Cordova native platform version 3.7.0 is starting.
+2015-10-11 05:10:16.304 MCHackathon[15121:5189937] Multi-tasking -> Device: YES, App: YES
+2015-10-11 05:10:16.319 MCHackathon[15121:5189937] Unlimited access to network resources
+2015-10-11 05:10:16.329 MCHackathon[15121:5189937] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-10-11 05:10:16.394 MCHackathon[15121:5189937] [CDVTimer][wlapp] 0.564992ms
+2015-10-11 05:10:16.394 MCHackathon[15121:5189937] [CDVTimer][push] 0.481009ms
+2015-10-11 05:10:16.394 MCHackathon[15121:5189937] [CDVTimer][TotalPluginStartup] 1.278996ms
+2015-10-11 05:10:16.732 MCHackathon[15121:5189937] Resetting plugins due to page load.
+2015-10-11 05:10:17.021 MCHackathon[15121:5189937] Finished load of: file:///Users/yoelnunez/Library/Developer/CoreSimulator/Devices/097CEB04-91F2-4214-8643-51C1B9B68348/data/Containers/Bundle/Application/AACBA531-D50B-48F4-B850-58E116AB685A/MCHackathon.app/www/index.html
+2015-10-11 05:10:17.615 MCHackathon[15121:5190023] [DOM] registerDelegateCallbackId()
+2015-10-11 05:10:17.615 MCHackathon[15121:5190018] peripheralManagerDidUpdateState: PeripheralManagerStateUnsupported
+2015-10-11 05:10:17.615 MCHackathon[15121:5189937] peripheralManagerDidUpdateState() state: PeripheralManagerStateUnsupported
+2015-10-11 05:10:17.615 MCHackathon[15121:5190018] Converted peripheralManagerDidUpdateState: into peripheralManagerDidUpdateState
+2015-10-11 05:10:17.616 MCHackathon[15121:5190018] Invalid callback id received by sendPluginResult
+2015-10-11 05:10:17.616 MCHackathon[15121:5189937] didChangeAuthorizationStatus
+2015-10-11 05:10:17.616 MCHackathon[15121:5189937] didChangeAuthorizationStatus: 0 => AuthorizationStatusNotDetermined
+2015-10-11 05:10:17.616 MCHackathon[15121:5189937] Converted locationManager:didChangeAuthorizationStatus: into didChangeAuthorizationStatus
+2015-10-11 05:10:17.617 MCHackathon[15121:5189937] Invalid callback id received by sendPluginResult
+2015-10-11 05:10:17.620 MCHackathon[15121:5190023] Registering delegate callback ID: LocationManager1241733073
+2015-10-11 05:10:17.623 MCHackathon[15121:5190018] [DOM] _onDelegateCallback() null
+2015-10-11 05:10:19.611 MCHackathon[15121:5189937] log1
+2015-10-11 05:10:19.627 MCHackathon[15121:5189937] THREAD WARNING: ['DeviceAuth'] took '11.536133' ms. Plugin should use a background thread.
+2015-10-11 05:10:19.677 MCHackathon[15121:5190021] [DEBUG] [NONE] wlclient init started
+2015-10-11 05:10:19.682 MCHackathon[15121:5190019] [DEBUG] [NONE] Read cookies: null
+2015-10-11 05:10:19.683 MCHackathon[15121:5190023] [DEBUG] [NONE] ondeviceready event dispatched
+2015-10-11 05:10:19.685 MCHackathon[15121:5190020] [DEBUG] [NONE] CookieMgr read cookies: {}
+2015-10-11 05:10:19.687 MCHackathon[15121:5190082] [DEBUG] [NONE] before: initOptions.onSuccess
+2015-10-11 05:10:19.689 MCHackathon[15121:5190081] [DEBUG] [NONE] after: initOptions.onSuccess
+2015-10-11 05:10:19.691 MCHackathon[15121:5190083] [DEBUG] [NONE] added onPause and onResume event handlers
+2015-10-11 05:10:19.692 MCHackathon[15121:5190084] [DEBUG] [NONE] wlclient init success
+2015-10-11 05:10:19.694 MCHackathon[15121:5190018] [DEBUG] [WORKLIGHT] +[WLClient sharedInstance] in WLClient.m:165 :: IBMMobilieFirstFoundation.framework version = 7.1-2015/10/05 17:57:16
+2015-10-11 05:10:21.614 MCHackathon[15121:5189937] didChangeAuthorizationStatus
+2015-10-11 05:10:21.614 MCHackathon[15121:5189937] didChangeAuthorizationStatus: 4 => AuthorizationStatusAuthorizedWhenInUse
+2015-10-11 05:10:21.614 MCHackathon[15121:5189937] Converted locationManager:didChangeAuthorizationStatus: into didChangeAuthorizationStatus
+2015-10-11 05:10:21.615 MCHackathon[15121:5190018] [DOM] _onDelegateCallback() {"eventType":"didChangeAuthorizationStatus","status":"AuthorizationStatusAuthorizedWhenInUse"}
+2015-10-11 05:10:21.615 MCHackathon[15121:5190083] [DOM] _mapDelegateCallback() found eventType didChangeAuthorizationStatus
+2015-10-11 05:10:21.615 MCHackathon[15121:5190084] [DOM] DEFAULT didChangeAuthorizationStatus()
+2015-10-11 05:28:55.815 MCHackathon[15751:5203259] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/yoelnunez/Library/Developer/CoreSimulator/Devices/097CEB04-91F2-4214-8643-51C1B9B68348/data/Containers/Data/Application/DAF0977D-EFEB-405A-A08E-CC483D14686B/Library/Cookies/Cookies.binarycookies
+2015-10-11 05:28:55.869 MCHackathon[15751:5203259] You've implemented -[<UIApplicationDelegate> application:didReceiveRemoteNotification:fetchCompletionHandler:], but you still need to add "remote-notification" to the list of your supported UIBackgroundModes in your Info.plist.
+2015-10-11 05:28:55.877 MCHackathon[15751:5203259] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2015-10-11 05:28:55.894 MCHackathon[15751:5203259] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2015-10-11 05:28:55.903 MCHackathon[15751:5203278] [INFO] [WL_INIT] -[WLImpl initWL] in WLImpl.m:121 :: App is using MFP Cordova Plugin
+2015-10-11 05:28:55.914 MCHackathon[15751:5203259] Unbalanced calls to begin/end appearance transitions for <UIViewController: 0x786786f0>.
+2015-10-11 05:28:55.918 MCHackathon[15751:5203278] [DEBUG] [WL_CONFIG] -[WLConfig init] in WLConfig.m:71 :: {
+    "application id" = "com_ibm_MCHackathon";
+    "application version" = "1.0.0";
+    buildtime = 1444504674442;
+    environment = iphone;
+    host = "127.0.0.1";
+    ignoredFileExtensions = "png, jpg, jpeg, gif, mp4, mp3";
+    platformVersion = "7.1.0.0";
+    port = 10080;
+    protocol = http;
+    testWebResourcesChecksum = false;
+    wlAppFamily = "";
+    wlMainFile = "index.html";
+    wlSecureDirectUpdatePublicKey = "";
+    wlServerContext = "/BackendRuntime/";
+    wlShareCookies = "";
+    wlShareUserCert = false;
+    wlUid = "r7vTHIe5LI68uoNWTwP0mA==";
+}
+2015-10-11 05:28:56.059 MCHackathon[15751:5203259] Apache Cordova native platform version 3.7.0 is starting.
+2015-10-11 05:28:56.060 MCHackathon[15751:5203259] Multi-tasking -> Device: YES, App: YES
+2015-10-11 05:28:56.061 MCHackathon[15751:5203259] Unlimited access to network resources
+2015-10-11 05:28:56.067 MCHackathon[15751:5203259] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-10-11 05:28:56.068 MCHackathon[15751:5203259] Restoring old webstorage backup. From: '/Users/yoelnunez/Library/Developer/CoreSimulator/Devices/097CEB04-91F2-4214-8643-51C1B9B68348/data/Containers/Data/Application/DAF0977D-EFEB-405A-A08E-CC483D14686B/Library/Caches/file__0.localstorage' To: '/Users/yoelnunez/Library/Developer/CoreSimulator/Devices/097CEB04-91F2-4214-8643-51C1B9B68348/data/Containers/Data/Application/DAF0977D-EFEB-405A-A08E-CC483D14686B/Library/WebKit/LocalStorage/file__0.localstorage'.
+2015-10-11 05:28:56.070 MCHackathon[15751:5203259] Removing old webstorage backup: '/Users/yoelnunez/Library/Developer/CoreSimulator/Devices/097CEB04-91F2-4214-8643-51C1B9B68348/data/Containers/Data/Application/DAF0977D-EFEB-405A-A08E-CC483D14686B/Library/Caches/file__0.localstorage'.
+2015-10-11 05:28:56.134 MCHackathon[15751:5203259] [CDVTimer][wlapp] 0.055969ms
+2015-10-11 05:28:56.134 MCHackathon[15751:5203259] [CDVTimer][push] 0.033975ms
+2015-10-11 05:28:56.134 MCHackathon[15751:5203259] [CDVTimer][TotalPluginStartup] 0.280023ms
+2015-10-11 05:28:56.164 MCHackathon[15751:5203259] Resetting plugins due to page load.
+2015-10-11 05:28:56.258 MCHackathon[15751:5203259] Finished load of: file:///Users/yoelnunez/Library/Developer/CoreSimulator/Devices/097CEB04-91F2-4214-8643-51C1B9B68348/data/Containers/Bundle/Application/69CF7968-23E6-4103-8415-725349451CB7/MCHackathon.app/www/index.html
+2015-10-11 05:28:56.568 MCHackathon[15751:5203270] [DOM] registerDelegateCallbackId()
+2015-10-11 05:28:56.568 MCHackathon[15751:5203259] peripheralManagerDidUpdateState() state: PeripheralManagerStateUnsupported
+2015-10-11 05:28:56.568 MCHackathon[15751:5203272] peripheralManagerDidUpdateState: PeripheralManagerStateUnsupported
+2015-10-11 05:28:56.568 MCHackathon[15751:5203272] Converted peripheralManagerDidUpdateState: into peripheralManagerDidUpdateState
+2015-10-11 05:28:56.568 MCHackathon[15751:5203272] Invalid callback id received by sendPluginResult
+2015-10-11 05:28:56.569 MCHackathon[15751:5203259] didChangeAuthorizationStatus
+2015-10-11 05:28:56.569 MCHackathon[15751:5203259] didChangeAuthorizationStatus: 4 => AuthorizationStatusAuthorizedWhenInUse
+2015-10-11 05:28:56.569 MCHackathon[15751:5203259] Converted locationManager:didChangeAuthorizationStatus: into didChangeAuthorizationStatus
+2015-10-11 05:28:56.569 MCHackathon[15751:5203259] Invalid callback id received by sendPluginResult
+2015-10-11 05:28:56.572 MCHackathon[15751:5203270] Registering delegate callback ID: LocationManager1350739836
+2015-10-11 05:28:56.574 MCHackathon[15751:5203270] [DOM] _onDelegateCallback() null
+2015-10-11 05:28:58.563 MCHackathon[15751:5203259] log1
+2015-10-11 05:28:58.579 MCHackathon[15751:5203271] [DEBUG] [WORKLIGHT] +[WLClient sharedInstance] in WLClient.m:165 :: IBMMobilieFirstFoundation.framework version = 7.1-2015/10/05 17:57:16
+2015-10-11 05:28:58.612 MCHackathon[15751:5203272] [DEBUG] [NONE] wlclient init started
+2015-10-11 05:28:58.615 MCHackathon[15751:5203271] [DEBUG] [NONE] ondeviceready event dispatched
+2015-10-11 05:28:58.617 MCHackathon[15751:5203273] [DEBUG] [NONE] CookieMgr read cookies: {}
+2015-10-11 05:28:58.619 MCHackathon[15751:5203270] [DEBUG] [NONE] Read cookies: null
+2015-10-11 05:28:58.620 MCHackathon[15751:5203320] [DEBUG] [NONE] before: initOptions.onSuccess
+2015-10-11 05:28:58.622 MCHackathon[15751:5203321] [DEBUG] [NONE] after: initOptions.onSuccess
+2015-10-11 05:28:58.624 MCHackathon[15751:5203322] [DEBUG] [NONE] added onPause and onResume event handlers
+2015-10-11 05:28:58.626 MCHackathon[15751:5203323] [DEBUG] [NONE] wlclient init success
+2015-10-11 05:31:05.617 MCHackathon[16098:5205846] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/yoelnunez/Library/Developer/CoreSimulator/Devices/097CEB04-91F2-4214-8643-51C1B9B68348/data/Containers/Data/Application/D86BF581-077F-41F2-ADEF-9AB11B89698E/Library/Cookies/Cookies.binarycookies
+2015-10-11 05:31:05.663 MCHackathon[16098:5205846] You've implemented -[<UIApplicationDelegate> application:didReceiveRemoteNotification:fetchCompletionHandler:], but you still need to add "remote-notification" to the list of your supported UIBackgroundModes in your Info.plist.
+2015-10-11 05:31:05.695 MCHackathon[16098:5205846] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2015-10-11 05:31:05.721 MCHackathon[16098:5205879] [INFO] [WL_INIT] -[WLImpl initWL] in WLImpl.m:121 :: App is using MFP Cordova Plugin
+2015-10-11 05:31:05.726 MCHackathon[16098:5205879] [DEBUG] [WL_CONFIG] -[WLConfig init] in WLConfig.m:71 :: {
+    "application id" = "com_ibm_MCHackathon";
+    "application version" = "1.0.0";
+    buildtime = 1444504674442;
+    environment = iphone;
+    host = "127.0.0.1";
+    ignoredFileExtensions = "png, jpg, jpeg, gif, mp4, mp3";
+    platformVersion = "7.1.0.0";
+    port = 10080;
+    protocol = http;
+    testWebResourcesChecksum = false;
+    wlAppFamily = "";
+    wlMainFile = "index.html";
+    wlSecureDirectUpdatePublicKey = "";
+    wlServerContext = "/BackendRuntime/";
+    wlShareCookies = "";
+    wlShareUserCert = false;
+    wlUid = "r7vTHIe5LI68uoNWTwP0mA==";
+}
+2015-10-11 05:31:05.751 MCHackathon[16098:5205846] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2015-10-11 05:31:05.869 MCHackathon[16098:5205846] Apache Cordova native platform version 3.7.0 is starting.
+2015-10-11 05:31:05.869 MCHackathon[16098:5205846] Multi-tasking -> Device: YES, App: YES
+2015-10-11 05:31:05.871 MCHackathon[16098:5205846] Unlimited access to network resources
+2015-10-11 05:31:05.878 MCHackathon[16098:5205846] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-10-11 05:31:05.941 MCHackathon[16098:5205846] [CDVTimer][wlapp] 0.075996ms
+2015-10-11 05:31:05.941 MCHackathon[16098:5205846] [CDVTimer][push] 0.036001ms
+2015-10-11 05:31:05.941 MCHackathon[16098:5205846] [CDVTimer][TotalPluginStartup] 0.350952ms
+2015-10-11 05:31:05.944 MCHackathon[16098:5205846] Unbalanced calls to begin/end appearance transitions for <UIViewController: 0x7bc2f8a0>.
+2015-10-11 05:31:05.958 MCHackathon[16098:5205846] Resetting plugins due to page load.
+2015-10-11 05:31:06.041 MCHackathon[16098:5205846] Finished load of: file:///Users/yoelnunez/Library/Developer/CoreSimulator/Devices/097CEB04-91F2-4214-8643-51C1B9B68348/data/Containers/Bundle/Application/58697F80-2EA5-4C31-A38D-CA17C1B8468E/MCHackathon.app/www/index.html
+2015-10-11 05:31:06.566 MCHackathon[16098:5205871] [DOM] registerDelegateCallbackId()
+2015-10-11 05:31:06.566 MCHackathon[16098:5205846] peripheralManagerDidUpdateState() state: PeripheralManagerStateUnsupported
+2015-10-11 05:31:06.566 MCHackathon[16098:5205873] peripheralManagerDidUpdateState: PeripheralManagerStateUnsupported
+2015-10-11 05:31:06.566 MCHackathon[16098:5205873] Converted peripheralManagerDidUpdateState: into peripheralManagerDidUpdateState
+2015-10-11 05:31:06.566 MCHackathon[16098:5205873] Invalid callback id received by sendPluginResult
+2015-10-11 05:31:06.568 MCHackathon[16098:5205846] didChangeAuthorizationStatus
+2015-10-11 05:31:06.568 MCHackathon[16098:5205846] didChangeAuthorizationStatus: 4 => AuthorizationStatusAuthorizedWhenInUse
+2015-10-11 05:31:06.568 MCHackathon[16098:5205846] Converted locationManager:didChangeAuthorizationStatus: into didChangeAuthorizationStatus
+2015-10-11 05:31:06.568 MCHackathon[16098:5205846] Invalid callback id received by sendPluginResult
+2015-10-11 05:31:06.570 MCHackathon[16098:5205871] Registering delegate callback ID: LocationManager375777109
+2015-10-11 05:31:06.572 MCHackathon[16098:5205871] [DOM] _onDelegateCallback() null
+2015-10-11 05:31:08.563 MCHackathon[16098:5205846] log1
+2015-10-11 05:31:08.578 MCHackathon[16098:5205874] [DEBUG] [WORKLIGHT] +[WLClient sharedInstance] in WLClient.m:165 :: IBMMobilieFirstFoundation.framework version = 7.1-2015/10/05 17:57:16
+2015-10-11 05:31:08.612 MCHackathon[16098:5205874] [DEBUG] [NONE] ondeviceready event dispatched
+2015-10-11 05:31:08.613 MCHackathon[16098:5205873] [DEBUG] [NONE] wlclient init started
+2015-10-11 05:31:08.615 MCHackathon[16098:5205871] [DEBUG] [NONE] CookieMgr read cookies: {}
+2015-10-11 05:31:08.617 MCHackathon[16098:5205881] [DEBUG] [NONE] Read cookies: null
+2015-10-11 05:31:08.619 MCHackathon[16098:5205990] [DEBUG] [NONE] before: initOptions.onSuccess
+2015-10-11 05:31:08.620 MCHackathon[16098:5205991] [DEBUG] [NONE] after: initOptions.onSuccess
+2015-10-11 05:31:08.622 MCHackathon[16098:5205992] [DEBUG] [NONE] added onPause and onResume event handlers
+2015-10-11 05:31:08.624 MCHackathon[16098:5205993] [DEBUG] [NONE] wlclient init success
+2015-10-11 05:34:41.411 MCHackathon[16374:5208822] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/yoelnunez/Library/Developer/CoreSimulator/Devices/097CEB04-91F2-4214-8643-51C1B9B68348/data/Containers/Data/Application/FBAA7928-9D21-4AC7-AAF4-AC531E2BA6FD/Library/Cookies/Cookies.binarycookies
+2015-10-11 05:34:41.472 MCHackathon[16374:5208822] You've implemented -[<UIApplicationDelegate> application:didReceiveRemoteNotification:fetchCompletionHandler:], but you still need to add "remote-notification" to the list of your supported UIBackgroundModes in your Info.plist.
+2015-10-11 05:34:41.484 MCHackathon[16374:5208822] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2015-10-11 05:34:41.517 MCHackathon[16374:5208854] [INFO] [WL_INIT] -[WLImpl initWL] in WLImpl.m:121 :: App is using MFP Cordova Plugin
+2015-10-11 05:34:41.521 MCHackathon[16374:5208822] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2015-10-11 05:34:41.525 MCHackathon[16374:5208854] [DEBUG] [WL_CONFIG] -[WLConfig init] in WLConfig.m:71 :: {
+    "application id" = "com_ibm_MCHackathon";
+    "application version" = "1.0.0";
+    buildtime = 1444504674442;
+    environment = iphone;
+    host = "127.0.0.1";
+    ignoredFileExtensions = "png, jpg, jpeg, gif, mp4, mp3";
+    platformVersion = "7.1.0.0";
+    port = 10080;
+    protocol = http;
+    testWebResourcesChecksum = false;
+    wlAppFamily = "";
+    wlMainFile = "index.html";
+    wlSecureDirectUpdatePublicKey = "";
+    wlServerContext = "/BackendRuntime/";
+    wlShareCookies = "";
+    wlShareUserCert = false;
+    wlUid = "r7vTHIe5LI68uoNWTwP0mA==";
+}
+2015-10-11 05:34:41.541 MCHackathon[16374:5208822] Unbalanced calls to begin/end appearance transitions for <UIViewController: 0x78952250>.
+2015-10-11 05:34:41.660 MCHackathon[16374:5208822] Apache Cordova native platform version 3.7.0 is starting.
+2015-10-11 05:34:41.661 MCHackathon[16374:5208822] Multi-tasking -> Device: YES, App: YES
+2015-10-11 05:34:41.662 MCHackathon[16374:5208822] Unlimited access to network resources
+2015-10-11 05:34:41.668 MCHackathon[16374:5208822] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-10-11 05:34:41.733 MCHackathon[16374:5208822] [CDVTimer][wlapp] 0.083029ms
+2015-10-11 05:34:41.733 MCHackathon[16374:5208822] [CDVTimer][push] 0.046015ms
+2015-10-11 05:34:41.733 MCHackathon[16374:5208822] [CDVTimer][TotalPluginStartup] 0.389040ms
+2015-10-11 05:34:41.752 MCHackathon[16374:5208822] Resetting plugins due to page load.
+2015-10-11 05:34:41.836 MCHackathon[16374:5208822] Finished load of: file:///Users/yoelnunez/Library/Developer/CoreSimulator/Devices/097CEB04-91F2-4214-8643-51C1B9B68348/data/Containers/Bundle/Application/EBDCAE4A-518C-4672-966F-72A9066D3F03/MCHackathon.app/www/index.html
+2015-10-11 05:34:42.554 MCHackathon[16374:5208847] [DOM] registerDelegateCallbackId()
+2015-10-11 05:34:42.554 MCHackathon[16374:5208822] peripheralManagerDidUpdateState() state: PeripheralManagerStateUnsupported
+2015-10-11 05:34:42.554 MCHackathon[16374:5208848] peripheralManagerDidUpdateState: PeripheralManagerStateUnsupported
+2015-10-11 05:34:42.555 MCHackathon[16374:5208848] Converted peripheralManagerDidUpdateState: into peripheralManagerDidUpdateState
+2015-10-11 05:34:42.555 MCHackathon[16374:5208848] Invalid callback id received by sendPluginResult
+2015-10-11 05:34:42.555 MCHackathon[16374:5208822] didChangeAuthorizationStatus
+2015-10-11 05:34:42.555 MCHackathon[16374:5208822] didChangeAuthorizationStatus: 4 => AuthorizationStatusAuthorizedWhenInUse
+2015-10-11 05:34:42.555 MCHackathon[16374:5208822] Converted locationManager:didChangeAuthorizationStatus: into didChangeAuthorizationStatus
+2015-10-11 05:34:42.556 MCHackathon[16374:5208822] Invalid callback id received by sendPluginResult
+2015-10-11 05:34:42.558 MCHackathon[16374:5208848] Registering delegate callback ID: LocationManager705602208
+2015-10-11 05:34:42.560 MCHackathon[16374:5208848] [DOM] _onDelegateCallback() null
+2015-10-11 05:34:44.553 MCHackathon[16374:5208822] log1
+2015-10-11 05:34:44.568 MCHackathon[16374:5208847] [DEBUG] [WORKLIGHT] +[WLClient sharedInstance] in WLClient.m:165 :: IBMMobilieFirstFoundation.framework version = 7.1-2015/10/05 17:57:16
+2015-10-11 05:34:44.601 MCHackathon[16374:5208856] [DEBUG] [NONE] CookieMgr read cookies: {}
+2015-10-11 05:34:44.604 MCHackathon[16374:5208847] [DEBUG] [NONE] ondeviceready event dispatched
+2015-10-11 05:34:44.606 MCHackathon[16374:5208850] [DEBUG] [NONE] wlclient init started
+2015-10-11 05:34:44.608 MCHackathon[16374:5208848] [DEBUG] [NONE] Read cookies: null
+2015-10-11 05:34:44.610 MCHackathon[16374:5208887] [DEBUG] [NONE] added onPause and onResume event handlers
+2015-10-11 05:34:44.611 MCHackathon[16374:5208886] [DEBUG] [NONE] after: initOptions.onSuccess
+2015-10-11 05:34:44.613 MCHackathon[16374:5208885] [DEBUG] [NONE] before: initOptions.onSuccess
+2015-10-11 05:34:44.615 MCHackathon[16374:5208888] [DEBUG] [NONE] wlclient init success
+2015-10-11 07:20:55.562 MCHackathon[23767:5308682] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/yoelnunez/Library/Developer/CoreSimulator/Devices/097CEB04-91F2-4214-8643-51C1B9B68348/data/Containers/Data/Application/2EDCE00A-D8C3-4B5D-9762-542D41EB1DCF/Library/Cookies/Cookies.binarycookies
+2015-10-11 07:20:55.616 MCHackathon[23767:5308682] You've implemented -[<UIApplicationDelegate> application:didReceiveRemoteNotification:fetchCompletionHandler:], but you still need to add "remote-notification" to the list of your supported UIBackgroundModes in your Info.plist.
+2015-10-11 07:20:55.629 MCHackathon[23767:5308682] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2015-10-11 07:20:55.658 MCHackathon[23767:5308698] [INFO] [WL_INIT] -[WLImpl initWL] in WLImpl.m:121 :: App is using MFP Cordova Plugin
+2015-10-11 07:20:55.662 MCHackathon[23767:5308698] [DEBUG] [WL_CONFIG] -[WLConfig init] in WLConfig.m:71 :: {
+    "application id" = "com_ibm_MCHackathon";
+    "application version" = "1.0.0";
+    buildtime = 1444504674442;
+    environment = iphone;
+    host = "127.0.0.1";
+    ignoredFileExtensions = "png, jpg, jpeg, gif, mp4, mp3";
+    platformVersion = "7.1.0.0";
+    port = 10080;
+    protocol = http;
+    testWebResourcesChecksum = false;
+    wlAppFamily = "";
+    wlMainFile = "index.html";
+    wlSecureDirectUpdatePublicKey = "";
+    wlServerContext = "/BackendRuntime/";
+    wlShareCookies = "";
+    wlShareUserCert = false;
+    wlUid = "r7vTHIe5LI68uoNWTwP0mA==";
+}
+2015-10-11 07:20:55.676 MCHackathon[23767:5308682] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2015-10-11 07:20:55.690 MCHackathon[23767:5308682] Unbalanced calls to begin/end appearance transitions for <UIViewController: 0x7a27a740>.
+2015-10-11 07:20:55.806 MCHackathon[23767:5308682] Apache Cordova native platform version 3.7.0 is starting.
+2015-10-11 07:20:55.807 MCHackathon[23767:5308682] Multi-tasking -> Device: YES, App: YES
+2015-10-11 07:20:55.808 MCHackathon[23767:5308682] Unlimited access to network resources
+2015-10-11 07:20:55.814 MCHackathon[23767:5308682] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-10-11 07:20:55.879 MCHackathon[23767:5308682] [CDVTimer][wlapp] 0.098944ms
+2015-10-11 07:20:55.879 MCHackathon[23767:5308682] [CDVTimer][push] 0.047028ms
+2015-10-11 07:20:55.880 MCHackathon[23767:5308682] [CDVTimer][TotalPluginStartup] 0.431955ms
+2015-10-11 07:20:55.908 MCHackathon[23767:5308682] Resetting plugins due to page load.
+2015-10-11 07:20:56.000 MCHackathon[23767:5308682] Finished load of: file:///Users/yoelnunez/Library/Developer/CoreSimulator/Devices/097CEB04-91F2-4214-8643-51C1B9B68348/data/Containers/Bundle/Application/4BD55D93-7DAB-43AB-8C38-D9282FE81CCB/MCHackathon.app/www/index.html
+2015-10-11 07:20:56.331 MCHackathon[23767:5308696] [DOM] registerDelegateCallbackId()
+2015-10-11 07:20:56.331 MCHackathon[23767:5308682] peripheralManagerDidUpdateState() state: PeripheralManagerStateUnsupported
+2015-10-11 07:20:56.331 MCHackathon[23767:5308694] peripheralManagerDidUpdateState: PeripheralManagerStateUnsupported
+2015-10-11 07:20:56.332 MCHackathon[23767:5308694] Converted peripheralManagerDidUpdateState: into peripheralManagerDidUpdateState
+2015-10-11 07:20:56.332 MCHackathon[23767:5308694] Invalid callback id received by sendPluginResult
+2015-10-11 07:20:56.333 MCHackathon[23767:5308682] didChangeAuthorizationStatus
+2015-10-11 07:20:56.333 MCHackathon[23767:5308682] didChangeAuthorizationStatus: 4 => AuthorizationStatusAuthorizedWhenInUse
+2015-10-11 07:20:56.333 MCHackathon[23767:5308682] Converted locationManager:didChangeAuthorizationStatus: into didChangeAuthorizationStatus
+2015-10-11 07:20:56.333 MCHackathon[23767:5308682] Invalid callback id received by sendPluginResult
+2015-10-11 07:20:56.339 MCHackathon[23767:5308694] Registering delegate callback ID: LocationManager1715520159
+2015-10-11 07:20:56.341 MCHackathon[23767:5308696] [DOM] _onDelegateCallback() null
+2015-10-11 07:20:58.326 MCHackathon[23767:5308682] log1
+2015-10-11 07:20:58.341 MCHackathon[23767:5308694] [DEBUG] [WORKLIGHT] +[WLClient sharedInstance] in WLClient.m:165 :: IBMMobilieFirstFoundation.framework version = 7.1-2015/10/05 17:57:16
+2015-10-11 07:20:58.372 MCHackathon[23767:5308694] [DEBUG] [NONE] ondeviceready event dispatched
+2015-10-11 07:20:58.376 MCHackathon[23767:5308696] [DEBUG] [NONE] wlclient init started
+2015-10-11 07:20:58.378 MCHackathon[23767:5308693] [DEBUG] [NONE] Read cookies: null
+2015-10-11 07:20:58.380 MCHackathon[23767:5308692] [DEBUG] [NONE] CookieMgr read cookies: {}
+2015-10-11 07:20:58.381 MCHackathon[23767:5308741] [DEBUG] [NONE] before: initOptions.onSuccess
+2015-10-11 07:20:58.383 MCHackathon[23767:5308742] [DEBUG] [NONE] after: initOptions.onSuccess
+2015-10-11 07:20:58.385 MCHackathon[23767:5308743] [DEBUG] [NONE] added onPause and onResume event handlers
+2015-10-11 07:20:58.387 MCHackathon[23767:5308744] [DEBUG] [NONE] wlclient init success
+2015-10-11 07:22:04.740 MCHackathon[23767:5308682] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-10-11 07:22:04.740 MCHackathon[23767:5308682] Setting the WebView's frame to {{0, 0}, {375, 667}}
+2015-10-11 07:22:04.763 MCHackathon[23767:5308682] THREAD WARNING: ['InAppBrowser'] took '122.225830' ms. Plugin should use a background thread.
+2015-10-11 07:24:35.787 MCHackathon[23767:5308682] Tried to show IAB while already shown
+2015-10-11 07:25:00.680 MCHackathon[23767:5308682] Resetting plugins due to page load.
+2015-10-11 07:25:00.698 MCHackathon[23767:5308682] Finished load of: file:///Users/yoelnunez/Library/Developer/CoreSimulator/Devices/097CEB04-91F2-4214-8643-51C1B9B68348/data/Containers/Bundle/Application/4BD55D93-7DAB-43AB-8C38-D9282FE81CCB/MCHackathon.app/www/payment.html
+2015-10-11 08:17:40.564 MCHackathon[25509:5356896] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/yoelnunez/Library/Developer/CoreSimulator/Devices/097CEB04-91F2-4214-8643-51C1B9B68348/data/Containers/Data/Application/CAAA5B9D-8783-4716-BB81-E368E52C00EA/Library/Cookies/Cookies.binarycookies
+2015-10-11 08:17:40.617 MCHackathon[25509:5356896] You've implemented -[<UIApplicationDelegate> application:didReceiveRemoteNotification:fetchCompletionHandler:], but you still need to add "remote-notification" to the list of your supported UIBackgroundModes in your Info.plist.
+2015-10-11 08:17:40.633 MCHackathon[25509:5356896] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2015-10-11 08:17:40.677 MCHackathon[25509:5356911] [INFO] [WL_INIT] -[WLImpl initWL] in WLImpl.m:121 :: App is using MFP Cordova Plugin
+2015-10-11 08:17:40.687 MCHackathon[25509:5356911] [DEBUG] [WL_CONFIG] -[WLConfig init] in WLConfig.m:71 :: {
+    "application id" = "com_ibm_MCHackathon";
+    "application version" = "1.0.0";
+    buildtime = 1444504674442;
+    environment = iphone;
+    host = "127.0.0.1";
+    ignoredFileExtensions = "png, jpg, jpeg, gif, mp4, mp3";
+    platformVersion = "7.1.0.0";
+    port = 10080;
+    protocol = http;
+    testWebResourcesChecksum = false;
+    wlAppFamily = "";
+    wlMainFile = "index.html";
+    wlSecureDirectUpdatePublicKey = "";
+    wlServerContext = "/BackendRuntime/";
+    wlShareCookies = "";
+    wlShareUserCert = false;
+    wlUid = "r7vTHIe5LI68uoNWTwP0mA==";
+}
+2015-10-11 08:17:40.697 MCHackathon[25509:5356896] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2015-10-11 08:17:40.711 MCHackathon[25509:5356896] Unbalanced calls to begin/end appearance transitions for <UIViewController: 0x7c23eaa0>.
+2015-10-11 08:17:40.827 MCHackathon[25509:5356896] Apache Cordova native platform version 3.7.0 is starting.
+2015-10-11 08:17:40.827 MCHackathon[25509:5356896] Multi-tasking -> Device: YES, App: YES
+2015-10-11 08:17:40.828 MCHackathon[25509:5356896] Unlimited access to network resources
+2015-10-11 08:17:40.835 MCHackathon[25509:5356896] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-10-11 08:17:40.900 MCHackathon[25509:5356896] [CDVTimer][wlapp] 0.057995ms
+2015-10-11 08:17:40.900 MCHackathon[25509:5356896] [CDVTimer][push] 0.052989ms
+2015-10-11 08:17:40.900 MCHackathon[25509:5356896] [CDVTimer][TotalPluginStartup] 0.349998ms
+2015-10-11 08:17:40.923 MCHackathon[25509:5356896] Resetting plugins due to page load.
+2015-10-11 08:17:41.011 MCHackathon[25509:5356896] Finished load of: file:///Users/yoelnunez/Library/Developer/CoreSimulator/Devices/097CEB04-91F2-4214-8643-51C1B9B68348/data/Containers/Bundle/Application/0F6F1F8D-7717-49D2-B513-6EF42C454841/MCHackathon.app/www/index.html
+2015-10-11 08:17:41.210 MCHackathon[25509:5356906] [DOM] registerDelegateCallbackId()
+2015-10-11 08:17:41.210 MCHackathon[25509:5356896] peripheralManagerDidUpdateState() state: PeripheralManagerStateUnsupported
+2015-10-11 08:17:41.210 MCHackathon[25509:5356905] peripheralManagerDidUpdateState: PeripheralManagerStateUnsupported
+2015-10-11 08:17:41.211 MCHackathon[25509:5356905] Converted peripheralManagerDidUpdateState: into peripheralManagerDidUpdateState
+2015-10-11 08:17:41.211 MCHackathon[25509:5356905] Invalid callback id received by sendPluginResult
+2015-10-11 08:17:41.211 MCHackathon[25509:5356896] didChangeAuthorizationStatus
+2015-10-11 08:17:41.211 MCHackathon[25509:5356896] didChangeAuthorizationStatus: 4 => AuthorizationStatusAuthorizedWhenInUse
+2015-10-11 08:17:41.211 MCHackathon[25509:5356896] Converted locationManager:didChangeAuthorizationStatus: into didChangeAuthorizationStatus
+2015-10-11 08:17:41.212 MCHackathon[25509:5356896] Invalid callback id received by sendPluginResult
+2015-10-11 08:17:41.214 MCHackathon[25509:5356905] Registering delegate callback ID: LocationManager596939445
+2015-10-11 08:17:41.216 MCHackathon[25509:5356904] [DOM] _onDelegateCallback() null
+2015-10-11 08:17:43.205 MCHackathon[25509:5356896] log1
+2015-10-11 08:17:43.222 MCHackathon[25509:5356904] [DEBUG] [WORKLIGHT] +[WLClient sharedInstance] in WLClient.m:165 :: IBMMobilieFirstFoundation.framework version = 7.1-2015/10/05 17:57:16
+2015-10-11 08:17:43.252 MCHackathon[25509:5356905] [DEBUG] [NONE] wlclient init started
+2015-10-11 08:17:43.255 MCHackathon[25509:5356906] [DEBUG] [NONE] CookieMgr read cookies: {}
+2015-10-11 08:17:43.257 MCHackathon[25509:5356907] [DEBUG] [NONE] Read cookies: null
+2015-10-11 08:17:43.259 MCHackathon[25509:5356904] [DEBUG] [NONE] ondeviceready event dispatched
+2015-10-11 08:17:43.260 MCHackathon[25509:5356944] [DEBUG] [NONE] after: initOptions.onSuccess
+2015-10-11 08:17:43.262 MCHackathon[25509:5356943] [DEBUG] [NONE] before: initOptions.onSuccess
+2015-10-11 08:17:43.264 MCHackathon[25509:5356946] [DEBUG] [NONE] wlclient init success
+2015-10-11 08:17:43.266 MCHackathon[25509:5356945] [DEBUG] [NONE] added onPause and onResume event handlers
+2015-10-11 08:18:45.124 MCHackathon[25509:5356896] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-10-11 08:18:45.132 MCHackathon[25509:5356896] THREAD WARNING: ['InAppBrowser'] took '78.856934' ms. Plugin should use a background thread.
+2015-10-11 08:19:32.515 MCHackathon[25509:5356896] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-10-11 08:19:32.520 MCHackathon[25509:5356896] THREAD WARNING: ['InAppBrowser'] took '64.519043' ms. Plugin should use a background thread.
+2015-10-11 08:21:08.761 MCHackathon[25509:5356896] Resetting plugins due to page load.
+2015-10-11 08:21:08.761 MCHackathon[25509:5356896] IAB.close() called but it was already closed.
+2015-10-11 08:21:08.769 MCHackathon[25509:5356896] Finished load of: file:///Users/yoelnunez/Library/Developer/CoreSimulator/Devices/097CEB04-91F2-4214-8643-51C1B9B68348/data/Containers/Bundle/Application/0F6F1F8D-7717-49D2-B513-6EF42C454841/MCHackathon.app/www/payment.html
+2015-10-11 08:27:42.552 MCHackathon[26014:5366357] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/yoelnunez/Library/Developer/CoreSimulator/Devices/097CEB04-91F2-4214-8643-51C1B9B68348/data/Containers/Data/Application/9FD73A5A-E41A-4592-98CE-E96E50E85761/Library/Cookies/Cookies.binarycookies
+2015-10-11 08:27:42.602 MCHackathon[26014:5366357] You've implemented -[<UIApplicationDelegate> application:didReceiveRemoteNotification:fetchCompletionHandler:], but you still need to add "remote-notification" to the list of your supported UIBackgroundModes in your Info.plist.
+2015-10-11 08:27:42.614 MCHackathon[26014:5366357] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2015-10-11 08:27:42.645 MCHackathon[26014:5366375] [INFO] [WL_INIT] -[WLImpl initWL] in WLImpl.m:121 :: App is using MFP Cordova Plugin
+2015-10-11 08:27:42.651 MCHackathon[26014:5366375] [DEBUG] [WL_CONFIG] -[WLConfig init] in WLConfig.m:71 :: {
+    "application id" = "com_ibm_MCHackathon";
+    "application version" = "1.0.0";
+    buildtime = 1444504674442;
+    environment = iphone;
+    host = "127.0.0.1";
+    ignoredFileExtensions = "png, jpg, jpeg, gif, mp4, mp3";
+    platformVersion = "7.1.0.0";
+    port = 10080;
+    protocol = http;
+    testWebResourcesChecksum = false;
+    wlAppFamily = "";
+    wlMainFile = "index.html";
+    wlSecureDirectUpdatePublicKey = "";
+    wlServerContext = "/BackendRuntime/";
+    wlShareCookies = "";
+    wlShareUserCert = false;
+    wlUid = "r7vTHIe5LI68uoNWTwP0mA==";
+}
+2015-10-11 08:27:42.659 MCHackathon[26014:5366357] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2015-10-11 08:27:42.673 MCHackathon[26014:5366357] Unbalanced calls to begin/end appearance transitions for <UIViewController: 0x79d5eb70>.
+2015-10-11 08:27:42.792 MCHackathon[26014:5366357] Apache Cordova native platform version 3.7.0 is starting.
+2015-10-11 08:27:42.792 MCHackathon[26014:5366357] Multi-tasking -> Device: YES, App: YES
+2015-10-11 08:27:42.794 MCHackathon[26014:5366357] Unlimited access to network resources
+2015-10-11 08:27:42.800 MCHackathon[26014:5366357] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-10-11 08:27:42.862 MCHackathon[26014:5366357] [CDVTimer][wlapp] 0.078022ms
+2015-10-11 08:27:42.862 MCHackathon[26014:5366357] [CDVTimer][push] 0.057042ms
+2015-10-11 08:27:42.862 MCHackathon[26014:5366357] [CDVTimer][TotalPluginStartup] 0.380993ms
+2015-10-11 08:27:42.892 MCHackathon[26014:5366357] Resetting plugins due to page load.
+2015-10-11 08:27:42.986 MCHackathon[26014:5366357] Finished load of: file:///Users/yoelnunez/Library/Developer/CoreSimulator/Devices/097CEB04-91F2-4214-8643-51C1B9B68348/data/Containers/Bundle/Application/72D2C69E-65B2-4680-ABCE-896C76EBE67A/MCHackathon.app/www/index.html
+2015-10-11 08:27:43.189 MCHackathon[26014:5366369] [DOM] registerDelegateCallbackId()
+2015-10-11 08:27:43.189 MCHackathon[26014:5366357] peripheralManagerDidUpdateState() state: PeripheralManagerStateUnsupported
+2015-10-11 08:27:43.189 MCHackathon[26014:5366367] peripheralManagerDidUpdateState: PeripheralManagerStateUnsupported
+2015-10-11 08:27:43.189 MCHackathon[26014:5366367] Converted peripheralManagerDidUpdateState: into peripheralManagerDidUpdateState
+2015-10-11 08:27:43.189 MCHackathon[26014:5366367] Invalid callback id received by sendPluginResult
+2015-10-11 08:27:43.190 MCHackathon[26014:5366357] didChangeAuthorizationStatus
+2015-10-11 08:27:43.190 MCHackathon[26014:5366357] didChangeAuthorizationStatus: 4 => AuthorizationStatusAuthorizedWhenInUse
+2015-10-11 08:27:43.190 MCHackathon[26014:5366357] Converted locationManager:didChangeAuthorizationStatus: into didChangeAuthorizationStatus
+2015-10-11 08:27:43.191 MCHackathon[26014:5366357] Invalid callback id received by sendPluginResult
+2015-10-11 08:27:43.194 MCHackathon[26014:5366367] Registering delegate callback ID: LocationManager1553771990
+2015-10-11 08:27:43.196 MCHackathon[26014:5366378] [DOM] _onDelegateCallback() null
+2015-10-11 08:27:45.183 MCHackathon[26014:5366357] log1
+2015-10-11 08:27:45.198 MCHackathon[26014:5366367] [DEBUG] [WORKLIGHT] +[WLClient sharedInstance] in WLClient.m:165 :: IBMMobilieFirstFoundation.framework version = 7.1-2015/10/05 17:57:16
+2015-10-11 08:27:45.232 MCHackathon[26014:5366367] [DEBUG] [NONE] ondeviceready event dispatched
+2015-10-11 08:27:45.236 MCHackathon[26014:5366369] [DEBUG] [NONE] Read cookies: null
+2015-10-11 08:27:45.238 MCHackathon[26014:5366378] [DEBUG] [NONE] wlclient init started
+2015-10-11 08:27:45.240 MCHackathon[26014:5366370] [DEBUG] [NONE] CookieMgr read cookies: {}
+2015-10-11 08:27:45.241 MCHackathon[26014:5366423] [DEBUG] [NONE] after: initOptions.onSuccess
+2015-10-11 08:27:45.243 MCHackathon[26014:5366422] [DEBUG] [NONE] before: initOptions.onSuccess
+2015-10-11 08:27:45.245 MCHackathon[26014:5366424] [DEBUG] [NONE] added onPause and onResume event handlers
+2015-10-11 08:27:45.246 MCHackathon[26014:5366425] [DEBUG] [NONE] wlclient init success
+2015-10-11 08:28:04.711 MCHackathon[26014:5366357] THREAD WARNING: ['InAppBrowser'] took '77.538086' ms. Plugin should use a background thread.
+2015-10-11 08:28:24.956 MCHackathon[26014:5366357] THREAD WARNING: ['InAppBrowser'] took '20219.083984' ms. Plugin should use a background thread.
+2015-10-11 08:29:06.937 MCHackathon[26254:5368059] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/yoelnunez/Library/Developer/CoreSimulator/Devices/097CEB04-91F2-4214-8643-51C1B9B68348/data/Containers/Data/Application/92AD704D-C0F4-428E-8AC3-E0224EBE151E/Library/Cookies/Cookies.binarycookies
+2015-10-11 08:29:06.987 MCHackathon[26254:5368059] You've implemented -[<UIApplicationDelegate> application:didReceiveRemoteNotification:fetchCompletionHandler:], but you still need to add "remote-notification" to the list of your supported UIBackgroundModes in your Info.plist.
+2015-10-11 08:29:06.995 MCHackathon[26254:5368059] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2015-10-11 08:29:07.013 MCHackathon[26254:5368059] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2015-10-11 08:29:07.024 MCHackathon[26254:5368119] [INFO] [WL_INIT] -[WLImpl initWL] in WLImpl.m:121 :: App is using MFP Cordova Plugin
+2015-10-11 08:29:07.033 MCHackathon[26254:5368059] Unbalanced calls to begin/end appearance transitions for <UIViewController: 0x78f668e0>.
+2015-10-11 08:29:07.051 MCHackathon[26254:5368119] [DEBUG] [WL_CONFIG] -[WLConfig init] in WLConfig.m:71 :: {
+    "application id" = "com_ibm_MCHackathon";
+    "application version" = "1.0.0";
+    buildtime = 1444504674442;
+    environment = iphone;
+    host = "127.0.0.1";
+    ignoredFileExtensions = "png, jpg, jpeg, gif, mp4, mp3";
+    platformVersion = "7.1.0.0";
+    port = 10080;
+    protocol = http;
+    testWebResourcesChecksum = false;
+    wlAppFamily = "";
+    wlMainFile = "index.html";
+    wlSecureDirectUpdatePublicKey = "";
+    wlServerContext = "/BackendRuntime/";
+    wlShareCookies = "";
+    wlShareUserCert = false;
+    wlUid = "r7vTHIe5LI68uoNWTwP0mA==";
+}
+2015-10-11 08:29:07.180 MCHackathon[26254:5368059] Apache Cordova native platform version 3.7.0 is starting.
+2015-10-11 08:29:07.180 MCHackathon[26254:5368059] Multi-tasking -> Device: YES, App: YES
+2015-10-11 08:29:07.181 MCHackathon[26254:5368059] Unlimited access to network resources
+2015-10-11 08:29:07.188 MCHackathon[26254:5368059] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-10-11 08:29:07.253 MCHackathon[26254:5368059] [CDVTimer][wlapp] 0.069976ms
+2015-10-11 08:29:07.253 MCHackathon[26254:5368059] [CDVTimer][push] 0.036001ms
+2015-10-11 08:29:07.253 MCHackathon[26254:5368059] [CDVTimer][TotalPluginStartup] 0.326037ms
+2015-10-11 08:29:07.271 MCHackathon[26254:5368059] Resetting plugins due to page load.
+2015-10-11 08:29:07.355 MCHackathon[26254:5368059] Finished load of: file:///Users/yoelnunez/Library/Developer/CoreSimulator/Devices/097CEB04-91F2-4214-8643-51C1B9B68348/data/Containers/Bundle/Application/FEB2DAA5-5EF9-418E-9FB6-D1BA464F0D84/MCHackathon.app/www/index.html
+2015-10-11 08:29:08.187 MCHackathon[26254:5368113] [DOM] registerDelegateCallbackId()
+2015-10-11 08:29:08.188 MCHackathon[26254:5368059] peripheralManagerDidUpdateState() state: PeripheralManagerStateUnsupported
+2015-10-11 08:29:08.188 MCHackathon[26254:5368112] peripheralManagerDidUpdateState: PeripheralManagerStateUnsupported
+2015-10-11 08:29:08.188 MCHackathon[26254:5368112] Converted peripheralManagerDidUpdateState: into peripheralManagerDidUpdateState
+2015-10-11 08:29:08.188 MCHackathon[26254:5368112] Invalid callback id received by sendPluginResult
+2015-10-11 08:29:08.189 MCHackathon[26254:5368059] didChangeAuthorizationStatus
+2015-10-11 08:29:08.189 MCHackathon[26254:5368059] didChangeAuthorizationStatus: 4 => AuthorizationStatusAuthorizedWhenInUse
+2015-10-11 08:29:08.189 MCHackathon[26254:5368059] Converted locationManager:didChangeAuthorizationStatus: into didChangeAuthorizationStatus
+2015-10-11 08:29:08.189 MCHackathon[26254:5368059] Invalid callback id received by sendPluginResult
+2015-10-11 08:29:08.192 MCHackathon[26254:5368113] Registering delegate callback ID: LocationManager1402597085
+2015-10-11 08:29:08.194 MCHackathon[26254:5368114] [DOM] _onDelegateCallback() null
+2015-10-11 08:29:10.180 MCHackathon[26254:5368059] log1
+2015-10-11 08:29:10.197 MCHackathon[26254:5368112] [DEBUG] [WORKLIGHT] +[WLClient sharedInstance] in WLClient.m:165 :: IBMMobilieFirstFoundation.framework version = 7.1-2015/10/05 17:57:16
+2015-10-11 08:29:10.231 MCHackathon[26254:5368112] [DEBUG] [NONE] ondeviceready event dispatched
+2015-10-11 08:29:10.234 MCHackathon[26254:5368111] [DEBUG] [NONE] wlclient init started
+2015-10-11 08:29:10.236 MCHackathon[26254:5368113] [DEBUG] [NONE] Read cookies: null
+2015-10-11 08:29:10.238 MCHackathon[26254:5368114] [DEBUG] [NONE] CookieMgr read cookies: {}
+2015-10-11 08:29:10.240 MCHackathon[26254:5368169] [DEBUG] [NONE] before: initOptions.onSuccess
+2015-10-11 08:29:10.242 MCHackathon[26254:5368170] [DEBUG] [NONE] after: initOptions.onSuccess
+2015-10-11 08:29:10.244 MCHackathon[26254:5368171] [DEBUG] [NONE] added onPause and onResume event handlers
+2015-10-11 08:29:10.245 MCHackathon[26254:5368172] [DEBUG] [NONE] wlclient init success
+2015-10-11 08:30:22.344 MCHackathon[26254:5368059] THREAD WARNING: ['InAppBrowser'] took '74.110840' ms. Plugin should use a background thread.
+2015-10-11 08:30:36.997 MCHackathon[26254:5368059] THREAD WARNING: ['InAppBrowser'] took '14626.451904' ms. Plugin should use a background thread.
+2015-10-11 08:31:19.210 MCHackathon[26510:5370087] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/yoelnunez/Library/Developer/CoreSimulator/Devices/097CEB04-91F2-4214-8643-51C1B9B68348/data/Containers/Data/Application/144FB18F-8705-415C-BF41-E79EA64253AD/Library/Cookies/Cookies.binarycookies
+2015-10-11 08:31:19.259 MCHackathon[26510:5370087] You've implemented -[<UIApplicationDelegate> application:didReceiveRemoteNotification:fetchCompletionHandler:], but you still need to add "remote-notification" to the list of your supported UIBackgroundModes in your Info.plist.
+2015-10-11 08:31:19.322 MCHackathon[26510:5370087] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2015-10-11 08:31:19.359 MCHackathon[26510:5370101] [INFO] [WL_INIT] -[WLImpl initWL] in WLImpl.m:121 :: App is using MFP Cordova Plugin
+2015-10-11 08:31:19.366 MCHackathon[26510:5370101] [DEBUG] [WL_CONFIG] -[WLConfig init] in WLConfig.m:71 :: {
+    "application id" = "com_ibm_MCHackathon";
+    "application version" = "1.0.0";
+    buildtime = 1444504674442;
+    environment = iphone;
+    host = "127.0.0.1";
+    ignoredFileExtensions = "png, jpg, jpeg, gif, mp4, mp3";
+    platformVersion = "7.1.0.0";
+    port = 10080;
+    protocol = http;
+    testWebResourcesChecksum = false;
+    wlAppFamily = "";
+    wlMainFile = "index.html";
+    wlSecureDirectUpdatePublicKey = "";
+    wlServerContext = "/BackendRuntime/";
+    wlShareCookies = "";
+    wlShareUserCert = false;
+    wlUid = "r7vTHIe5LI68uoNWTwP0mA==";
+}
+2015-10-11 08:31:19.489 MCHackathon[26510:5370087] Apache Cordova native platform version 3.7.0 is starting.
+2015-10-11 08:31:19.490 MCHackathon[26510:5370087] Multi-tasking -> Device: YES, App: YES
+2015-10-11 08:31:19.491 MCHackathon[26510:5370087] Unlimited access to network resources
+2015-10-11 08:31:19.498 MCHackathon[26510:5370087] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-10-11 08:31:19.565 MCHackathon[26510:5370087] [CDVTimer][wlapp] 0.060976ms
+2015-10-11 08:31:19.565 MCHackathon[26510:5370087] [CDVTimer][push] 0.054002ms
+2015-10-11 08:31:19.565 MCHackathon[26510:5370087] [CDVTimer][TotalPluginStartup] 0.325978ms
+2015-10-11 08:31:19.585 MCHackathon[26510:5370087] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2015-10-11 08:31:19.612 MCHackathon[26510:5370087] Unbalanced calls to begin/end appearance transitions for <UIViewController: 0x786a9300>.
+2015-10-11 08:31:19.613 MCHackathon[26510:5370087] Resetting plugins due to page load.
+2015-10-11 08:31:19.708 MCHackathon[26510:5370087] Finished load of: file:///Users/yoelnunez/Library/Developer/CoreSimulator/Devices/097CEB04-91F2-4214-8643-51C1B9B68348/data/Containers/Bundle/Application/4242010A-4F4D-4470-BDBE-08253D5756E0/MCHackathon.app/www/index.html
+2015-10-11 08:31:20.180 MCHackathon[26510:5370093] [DOM] registerDelegateCallbackId()
+2015-10-11 08:31:20.180 MCHackathon[26510:5370087] peripheralManagerDidUpdateState() state: PeripheralManagerStateUnsupported
+2015-10-11 08:31:20.180 MCHackathon[26510:5370096] peripheralManagerDidUpdateState: PeripheralManagerStateUnsupported
+2015-10-11 08:31:20.180 MCHackathon[26510:5370096] Converted peripheralManagerDidUpdateState: into peripheralManagerDidUpdateState
+2015-10-11 08:31:20.180 MCHackathon[26510:5370096] Invalid callback id received by sendPluginResult
+2015-10-11 08:31:20.182 MCHackathon[26510:5370087] didChangeAuthorizationStatus
+2015-10-11 08:31:20.182 MCHackathon[26510:5370087] didChangeAuthorizationStatus: 4 => AuthorizationStatusAuthorizedWhenInUse
+2015-10-11 08:31:20.182 MCHackathon[26510:5370087] Converted locationManager:didChangeAuthorizationStatus: into didChangeAuthorizationStatus
+2015-10-11 08:31:20.182 MCHackathon[26510:5370087] Invalid callback id received by sendPluginResult
+2015-10-11 08:31:20.184 MCHackathon[26510:5370093] Registering delegate callback ID: LocationManager1422659192
+2015-10-11 08:31:20.186 MCHackathon[26510:5370094] [DOM] _onDelegateCallback() null
+2015-10-11 08:31:22.182 MCHackathon[26510:5370087] log1
+2015-10-11 08:31:22.199 MCHackathon[26510:5370093] [DEBUG] [WORKLIGHT] +[WLClient sharedInstance] in WLClient.m:165 :: IBMMobilieFirstFoundation.framework version = 7.1-2015/10/05 17:57:16
+2015-10-11 08:31:22.228 MCHackathon[26510:5370093] [DEBUG] [NONE] ondeviceready event dispatched
+2015-10-11 08:31:22.231 MCHackathon[26510:5370095] [DEBUG] [NONE] wlclient init started
+2015-10-11 08:31:22.233 MCHackathon[26510:5370094] [DEBUG] [NONE] Read cookies: null
+2015-10-11 08:31:22.234 MCHackathon[26510:5370096] [DEBUG] [NONE] CookieMgr read cookies: {}
+2015-10-11 08:31:22.236 MCHackathon[26510:5370124] [DEBUG] [NONE] before: initOptions.onSuccess
+2015-10-11 08:31:22.238 MCHackathon[26510:5370125] [DEBUG] [NONE] after: initOptions.onSuccess
+2015-10-11 08:31:22.239 MCHackathon[26510:5370126] [DEBUG] [NONE] added onPause and onResume event handlers
+2015-10-11 08:31:22.241 MCHackathon[26510:5370127] [DEBUG] [NONE] wlclient init success
+2015-10-11 08:31:55.718 MCHackathon[26510:5370087] THREAD WARNING: ['InAppBrowser'] took '73.740967' ms. Plugin should use a background thread.
+2015-10-11 08:31:57.459 MCHackathon[26510:5370087] webView:didFailLoadWithError - -999: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2015-10-14 14:39:48.693 MCHackathon[8541:3450817] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Algebra/Library/Developer/CoreSimulator/Devices/439E46BB-E1B6-4BEA-B20D-AFE2490E7B9E/data/Containers/Data/Application/0EB74C23-3F33-4F0D-BAFF-49FB1D9CBFE7/Library/Cookies/Cookies.binarycookies
+2015-10-14 14:39:48.862 MCHackathon[8541:3450817] You've implemented -[<UIApplicationDelegate> application:didReceiveRemoteNotification:fetchCompletionHandler:], but you still need to add "remote-notification" to the list of your supported UIBackgroundModes in your Info.plist.
+2015-10-14 14:39:48.887 MCHackathon[8541:3450817] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2015-10-14 14:39:48.974 MCHackathon[8541:3450817] [DEBUG] [WL_SPLASH] -[WLSplashView updateImage] in WLSplashView.m:189 :: Splash screen image is taken from UILaunchImages: Default-667h
+2015-10-14 14:39:49.008 MCHackathon[8541:3450817] Unbalanced calls to begin/end appearance transitions for <UIViewController: 0x79869b40>.
+2015-10-14 14:39:49.021 MCHackathon[8541:3450935] [INFO] [WL_INIT] -[WLImpl initWL] in WLImpl.m:121 :: App is using MFP Cordova Plugin
+2015-10-14 14:39:49.034 MCHackathon[8541:3450935] [DEBUG] [WL_CONFIG] -[WLConfig init] in WLConfig.m:71 :: {
+    "application id" = "com_ibm_MCHackathon";
+    "application version" = "1.0.0";
+    buildtime = 1444504674442;
+    environment = iphone;
+    host = "127.0.0.1";
+    ignoredFileExtensions = "png, jpg, jpeg, gif, mp4, mp3";
+    platformVersion = "7.1.0.0";
+    port = 10080;
+    protocol = http;
+    testWebResourcesChecksum = false;
+    wlAppFamily = "";
+    wlMainFile = "index.html";
+    wlSecureDirectUpdatePublicKey = "";
+    wlServerContext = "/BackendRuntime/";
+    wlShareCookies = "";
+    wlShareUserCert = false;
+    wlUid = "r7vTHIe5LI68uoNWTwP0mA==";
+}
+2015-10-14 14:39:49.075 MCHackathon[8541:3450935] [DEBUG] [WL_INIT] -[WLImpl initWL] in WLImpl.m:127 :: At first launch
+2015-10-14 14:39:49.095 MCHackathon[8541:3450935] [DEBUG] [WL_INIT] -[WLImpl initWL] in WLImpl.m:153 :: Web resources should not be extracted.
+2015-10-14 14:39:49.581 MCHackathon[8541:3450817] Apache Cordova native platform version 3.7.0 is starting.
+2015-10-14 14:39:49.581 MCHackathon[8541:3450817] Multi-tasking -> Device: YES, App: YES
+2015-10-14 14:39:49.590 MCHackathon[8541:3450817] Unlimited access to network resources
+2015-10-14 14:39:49.612 MCHackathon[8541:3450817] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-10-14 14:39:49.784 MCHackathon[8541:3450817] [CDVTimer][wlapp] 0.750005ms
+2015-10-14 14:39:49.785 MCHackathon[8541:3450817] [CDVTimer][push] 0.607014ms
+2015-10-14 14:39:49.785 MCHackathon[8541:3450817] [CDVTimer][TotalPluginStartup] 1.673996ms
+2015-10-14 14:39:50.749 MCHackathon[8541:3450817] Resetting plugins due to page load.
+2015-10-14 14:39:51.371 MCHackathon[8541:3450817] Finished load of: file:///Users/Algebra/Library/Developer/CoreSimulator/Devices/439E46BB-E1B6-4BEA-B20D-AFE2490E7B9E/data/Containers/Bundle/Application/719400A0-293F-47BE-8442-495A959B4C40/MCHackathon.app/www/index.html
+2015-10-14 14:39:52.063 MCHackathon[8541:3450923] [DOM] registerDelegateCallbackId()
+2015-10-14 14:39:52.064 MCHackathon[8541:3450817] peripheralManagerDidUpdateState() state: PeripheralManagerStateUnsupported
+2015-10-14 14:39:52.064 MCHackathon[8541:3450913] peripheralManagerDidUpdateState: PeripheralManagerStateUnsupported
+2015-10-14 14:39:52.064 MCHackathon[8541:3450913] Converted peripheralManagerDidUpdateState: into peripheralManagerDidUpdateState
+2015-10-14 14:39:52.064 MCHackathon[8541:3450913] Invalid callback id received by sendPluginResult
+2015-10-14 14:39:52.065 MCHackathon[8541:3450817] didChangeAuthorizationStatus
+2015-10-14 14:39:52.065 MCHackathon[8541:3450817] didChangeAuthorizationStatus: 0 => AuthorizationStatusNotDetermined
+2015-10-14 14:39:52.065 MCHackathon[8541:3450817] Converted locationManager:didChangeAuthorizationStatus: into didChangeAuthorizationStatus
+2015-10-14 14:39:52.065 MCHackathon[8541:3450817] Invalid callback id received by sendPluginResult
+2015-10-14 14:39:52.069 MCHackathon[8541:3450913] Registering delegate callback ID: LocationManager502241261
+2015-10-14 14:39:52.073 MCHackathon[8541:3450923] [DOM] _onDelegateCallback() null
+2015-10-14 14:39:54.052 MCHackathon[8541:3450817] THREAD WARNING: ['WLApp'] took '13.896973' ms. Plugin should use a background thread.
+2015-10-14 14:39:54.059 MCHackathon[8541:3450817] log1
+2015-10-14 14:39:54.075 MCHackathon[8541:3450817] THREAD WARNING: ['DeviceAuth'] took '11.519775' ms. Plugin should use a background thread.
+2015-10-14 14:39:54.088 MCHackathon[8541:3450817] THREAD WARNING: ['WLApp'] took '12.037842' ms. Plugin should use a background thread.
+2015-10-14 14:39:54.180 MCHackathon[8541:3450923] [DEBUG] [NONE] ondeviceready event dispatched
+2015-10-14 14:39:54.193 MCHackathon[8541:3450913] [DEBUG] [NONE] CookieMgr read cookies: {}
+2015-10-14 14:39:54.202 MCHackathon[8541:3450936] [DEBUG] [NONE] wlclient init started
+2015-10-14 14:39:54.209 MCHackathon[8541:3450922] [DEBUG] [NONE] Read cookies: null
+2015-10-14 14:39:54.219 MCHackathon[8541:3450997] [DEBUG] [NONE] after: initOptions.onSuccess
+2015-10-14 14:39:54.224 MCHackathon[8541:3450995] [DEBUG] [NONE] before: initOptions.onSuccess
+2015-10-14 14:39:54.228 MCHackathon[8541:3450996] [DEBUG] [NONE] added onPause and onResume event handlers
+2015-10-14 14:39:54.233 MCHackathon[8541:3450998] [DEBUG] [NONE] wlclient init success
+2015-10-14 14:39:54.237 MCHackathon[8541:3450962] [DEBUG] [WORKLIGHT] +[WLClient sharedInstance] in WLClient.m:165 :: IBMMobilieFirstFoundation.framework version = 7.1-2015/10/05 17:57:16
+2015-10-14 14:39:54.416 MCHackathon[8541:3450817] didChangeAuthorizationStatus
+2015-10-14 14:39:54.416 MCHackathon[8541:3450817] didChangeAuthorizationStatus: 4 => AuthorizationStatusAuthorizedWhenInUse
+2015-10-14 14:39:54.416 MCHackathon[8541:3450817] Converted locationManager:didChangeAuthorizationStatus: into didChangeAuthorizationStatus
+2015-10-14 14:39:54.417 MCHackathon[8541:3450996] [DOM] DEFAULT didChangeAuthorizationStatus()
+2015-10-14 14:39:54.417 MCHackathon[8541:3450998] [DOM] _onDelegateCallback() {"eventType":"didChangeAuthorizationStatus","status":"AuthorizationStatusAuthorizedWhenInUse"}
+2015-10-14 14:39:54.417 MCHackathon[8541:3450962] [DOM] _mapDelegateCallback() found eventType didChangeAuthorizationStatus
+2015-10-14 14:39:56.070 MCHackathon[8541:3450817] [DEBUG] [WORKLIGHT] +[WLClient sharedInstance] in WLClient.m:165 :: IBMMobilieFirstFoundation.framework version = 7.1-2015/10/05 17:57:16
+2015-10-14 14:39:56.079 MCHackathon[8541:3450817] THREAD WARNING: ['WLAuthorizationManagerPlugin'] took '27.843018' ms. Plugin should use a background thread.
+2015-10-14 14:39:56.091 MCHackathon[8541:3450817] THREAD WARNING: ['WLAuthorizationManagerPlugin'] took '11.822998' ms. Plugin should use a background thread.
+2015-10-14 14:39:56.120 MCHackathon[8541:3450936] [DEBUG] [WL_AFHTTPRequestOperationManagerWrapper_PACKAGE] +[WLAFHTTPRequestOperationManagerWrapper requestWithURL:] in WLAFHTTPRequestOperationManagerWrapper.m:52 :: Request url is http://dakmastercc.mybluemix.net/locations
+2015-10-14 14:39:56.124 MCHackathon[8541:3450913] [DEBUG] [WL_AFHTTPRequestOperationManagerWrapper_PACKAGE] +[WLAFHTTPRequestOperationManagerWrapper requestWithURL:] in WLAFHTTPRequestOperationManagerWrapper.m:52 :: Request url is http://dakmastercc.mybluemix.net/flow?name=Meg%20Johnson&ccNum=5455330760000018&cvc=098&mm=09&yy=16
+2015-10-14 14:39:56.157 MCHackathon[8541:3450936] [DEBUG] [WL_AFHTTPRequestOperationManagerWrapper_PACKAGE] -[WLAFHTTPRequestOperationManagerWrapper start] in WLAFHTTPRequestOperationManagerWrapper.m:320 :: Starting the request with URL http://dakmastercc.mybluemix.net/locations
+2015-10-14 14:39:56.166 MCHackathon[8541:3450913] [DEBUG] [WL_AFHTTPRequestOperationManagerWrapper_PACKAGE] -[WLAFHTTPRequestOperationManagerWrapper start] in WLAFHTTPRequestOperationManagerWrapper.m:320 :: Starting the request with URL http://dakmastercc.mybluemix.net/flow?name=Meg%20Johnson&ccNum=5455330760000018&cvc=098&mm=09&yy=16
+2015-10-14 14:39:56.508 MCHackathon[8541:3450817] [DEBUG] [WL_AFHTTPRequestOperationManagerWrapper_PACKAGE] -[WLAFHTTPRequestOperationManagerWrapper requestFinished:] in WLAFHTTPRequestOperationManagerWrapper.m:333 :: Request Success
+2015-10-14 14:39:56.518 MCHackathon[8541:3450817] [DEBUG] [WL_AFHTTPRequestOperationManagerWrapper_PACKAGE] -[WLAFHTTPRequestOperationManagerWrapper requestFinished:] in WLAFHTTPRequestOperationManagerWrapper.m:334 :: Response Status Code : 200
+2015-10-14 14:39:56.529 MCHackathon[8541:3450817] [DEBUG] [WL_AFHTTPRequestOperationManagerWrapper_PACKAGE] -[WLAFHTTPRequestOperationManagerWrapper requestFinished:] in WLAFHTTPRequestOperationManagerWrapper.m:335 :: Response Content : [
+  {
+    "_id": "355cdc2a6d1404f773219e25860543b5",
+    "_rev": "1-afae5cce63b459d323b3ece881192617",
+    "name": "St. Louis, MO",
+    "image": "img/locations/cities/st-louis.jpg",
+    "description": "3 Events"
+  },
+  {
+    "_id": "6e5ffef203301d7acee11489b60c5845",
+    "_rev": "1-52e9e6f6fa99f5bcdebb855807bf40a2",
+    "name": "Los Angeles, CA",
+    "image": "img/locations/cities/los-angeles.jpg",
+    "description": "5 Events"
+  },
+  {
+    "_id": "7bccef2968e6351b654271f982ca61e8",
+    "_rev": "1-d19ec003889c74fccad3884ea5711733",
+    "name": "New York, NY",
+    "image": "img/locations/cities/new-york.jpg",
+    "description": "5 Events"
+  },
+  {
+    "_id": "d8aba97164d9bfb14b358ec360a76876",
+    "_rev": "1-88532f7f907efe517dc0eef176f22929",
+    "name": "Chicago, IL",
+    "image": "img/locations/cities/chicago.jpg",
+    "description": "2 Events"
+  }
+]
+2015-10-14 14:39:58.097 MCHackathon[8541:3450962] [DEBUG] [WL_AFHTTPRequestOperationManagerWrapper_PACKAGE] +[WLAFHTTPRequestOperationManagerWrapper requestWithURL:] in WLAFHTTPRequestOperationManagerWrapper.m:52 :: Request url is http://dakmastercc.mybluemix.net/getBeacons?event=MOC
+2015-10-14 14:39:58.119 MCHackathon[8541:3450962] [DEBUG] [WL_AFHTTPRequestOperationManagerWrapper_PACKAGE] -[WLAFHTTPRequestOperationManagerWrapper start] in WLAFHTTPRequestOperationManagerWrapper.m:320 :: Starting the request with URL http://dakmastercc.mybluemix.net/getBeacons?event=MOC
+2015-10-14 14:39:58.415 MCHackathon[8541:3450817] [DEBUG] [WL_AFHTTPRequestOperationManagerWrapper_PACKAGE] -[WLAFHTTPRequestOperationManagerWrapper requestFinished:] in WLAFHTTPRequestOperationManagerWrapper.m:333 :: Request Success
+2015-10-14 14:39:58.425 MCHackathon[8541:3450817] [DEBUG] [WL_AFHTTPRequestOperationManagerWrapper_PACKAGE] -[WLAFHTTPRequestOperationManagerWrapper requestFinished:] in WLAFHTTPRequestOperationManagerWrapper.m:334 :: Response Status Code : 200
+2015-10-14 14:39:58.435 MCHackathon[8541:3450817] [DEBUG] [WL_AFHTTPRequestOperationManagerWrapper_PACKAGE] -[WLAFHTTPRequestOperationManagerWrapper requestFinished:] in WLAFHTTPRequestOperationManagerWrapper.m:335 :: Response Content : [
+  {
+    "_id": "Beacon3",
+    "_rev": "13-9e2336f14260691181446eaadc58b840",
+    "Major": "501",
+    "Minor": "6770",
+    "data_description": "Buy one get one - Beer",
+    "Location_Zip": "63113",
+    "Events": [
+      "MOC"
+    ],
+    "UUID": "24DDF411-8CF1-440C-87CD-E368DAF9C93E",
+    "Location_State": "MO",
+    "Location_Desc": "Scottrade Center",
+    "Location_About": "Scottrade Center (originally Kiel Center and formerly Savvis Center) is a 19,150 seat arena located in downtown St. Louis, Missouri, opened in 1994. It is the home of the St. Louis Blues of the National Hockey League.",
+    "data_amount": "3000",
+    "data_name": "Draft Beer",
+    "longitude": "-90.202640",
+    "latitude": "38.626796",
+    "Location_City": "St Louis",
+    "data_reference": "99999",
+    "Location_Address": "1401 Clark Ave"
+  },
+  {
+    "_id": "Beacon1",
+    "_rev": "16-4c3a739fa40fbd7aabff6ab27c832db7",
+    "Major": "501",
+    "Minor": "6779",
+    "data_description": "Nike one size fits all Rams Hat - %20 Discount",
+    "Location_Zip": "63101",
+    "Events": [
+      "MOC",
+      "TreasuresofStLouis"
+    ],
+    "UUID": "24DDF411-8CF1-440C-87CD-E368DAF9C93E",
+    "Location_State": "MO",
+    "Location_Desc": "Edward Jones Dome",
+    "Location_About": "The Edward Jones Dome, formally known as the Edward Jones Dome at America's Center, is a multi-purpose stadium in St. Louis, Missouri, United States. It primarily serves as the home of the St. Louis Rams of the National Football League (NFL).",
+    "data_amount": "3000",
+    "data_name": "Rams Hat",
+    "longitude": "-90.188458",
+    "latitude": "38.632869",
+    "Location_City": "St Louis",
+    "data_reference": "99999",
+    "Location_Address": "901 N Broadway"
+  },
+  {
+    "_id": "Beacon2",
+    "_rev": "15-0d0f1a6b8bc18969e21638ab79ce24ef",
+    "Major": "501",
+    "Minor": "6771",
+    "data_description": "Logo Cards Shirt - %10 Discount",
+    "Location_Zip": "63102",
+    "Events": [
+      "MOC",
+      "TreasuresofStLouis"
+    ],
+    "UUID": "24DDF411-8CF1-440C-87CD-E368DAF9C93E",
+    "Location_State": "MO",
+    "Location_Desc": "Busch Stadium",
+    "Location_About": "Busch Stadium, also referred to informally as \"New Busch Stadium\" or \"Busch Stadium III\", is a baseball park located in St. Louis, Missouri, and the home of the St. Louis Cardinals , the city's Major League Baseball (MLB) franchise.",
+    "data_amount": "9000",
+    "data_name": "Cards Shirt",
+    "longitude": "-90.192896",
+    "latitude": "38.622619",
+    "Location_City": "St Louis",
+    "data_reference": "99999",
+    "Location_Address": "700 Clark Ave"
+  }
+]
+2015-10-14 14:40:01.467 MCHackathon[8541:3450817] THREAD WARNING: ['WLAuthorizationManagerPlugin'] took '15.233154' ms. Plugin should use a background thread.
+2015-10-14 14:40:01.501 MCHackathon[8541:3450962] [DEBUG] [WL_AFHTTPRequestOperationManagerWrapper_PACKAGE] +[WLAFHTTPRequestOperationManagerWrapper requestWithURL:] in WLAFHTTPRequestOperationManagerWrapper.m:52 :: Request url is http://dakmastercc.mybluemix.net/locations
+2015-10-14 14:40:01.505 MCHackathon[8541:3450995] [DEBUG] [WL_AFHTTPRequestOperationManagerWrapper_PACKAGE] +[WLAFHTTPRequestOperationManagerWrapper requestWithURL:] in WLAFHTTPRequestOperationManagerWrapper.m:52 :: Request url is http://dakmastercc.mybluemix.net/flow?name=Meg%20Johnson&ccNum=5455330760000018&cvc=098&mm=09&yy=16
+2015-10-14 14:40:01.537 MCHackathon[8541:3450962] [DEBUG] [WL_AFHTTPRequestOperationManagerWrapper_PACKAGE] -[WLAFHTTPRequestOperationManagerWrapper start] in WLAFHTTPRequestOperationManagerWrapper.m:320 :: Starting the request with URL http://dakmastercc.mybluemix.net/locations
+2015-10-14 14:40:01.546 MCHackathon[8541:3450995] [DEBUG] [WL_AFHTTPRequestOperationManagerWrapper_PACKAGE] -[WLAFHTTPRequestOperationManagerWrapper start] in WLAFHTTPRequestOperationManagerWrapper.m:320 :: Starting the request with URL http://dakmastercc.mybluemix.net/flow?name=Meg%20Johnson&ccNum=5455330760000018&cvc=098&mm=09&yy=16
+2015-10-14 14:40:01.660 MCHackathon[8541:3450817] [DEBUG] [WL_AFHTTPRequestOperationManagerWrapper_PACKAGE] -[WLAFHTTPRequestOperationManagerWrapper requestFinished:] in WLAFHTTPRequestOperationManagerWrapper.m:333 :: Request Success
+2015-10-14 14:40:01.670 MCHackathon[8541:3450817] [DEBUG] [WL_AFHTTPRequestOperationManagerWrapper_PACKAGE] -[WLAFHTTPRequestOperationManagerWrapper requestFinished:] in WLAFHTTPRequestOperationManagerWrapper.m:334 :: Response Status Code : 200
+2015-10-14 14:40:01.680 MCHackathon[8541:3450817] [DEBUG] [WL_AFHTTPRequestOperationManagerWrapper_PACKAGE] -[WLAFHTTPRequestOperationManagerWrapper requestFinished:] in WLAFHTTPRequestOperationManagerWrapper.m:335 :: Response Content : [
+  {
+    "_id": "355cdc2a6d1404f773219e25860543b5",
+    "_rev": "1-afae5cce63b459d323b3ece881192617",
+    "name": "St. Louis, MO",
+    "image": "img/locations/cities/st-louis.jpg",
+    "description": "3 Events"
+  },
+  {
+    "_id": "6e5ffef203301d7acee11489b60c5845",
+    "_rev": "1-52e9e6f6fa99f5bcdebb855807bf40a2",
+    "name": "Los Angeles, CA",
+    "image": "img/locations/cities/los-angeles.jpg",
+    "description": "5 Events"
+  },
+  {
+    "_id": "7bccef2968e6351b654271f982ca61e8",
+    "_rev": "1-d19ec003889c74fccad3884ea5711733",
+    "name": "New York, NY",
+    "image": "img/locations/cities/new-york.jpg",
+    "description": "5 Events"
+  },
+  {
+    "_id": "d8aba97164d9bfb14b358ec360a76876",
+    "_rev": "1-88532f7f907efe517dc0eef176f22929",
+    "name": "Chicago, IL",
+    "image": "img/locations/cities/chicago.jpg",
+    "description": "2 Events"
+  }
+]
+2015-10-14 14:40:11.484 MCHackathon[8541:3450817] [DEBUG] [WL_AFHTTPRequestOperationManagerWrapper_PACKAGE] -[WLAFHTTPRequestOperationManagerWrapper requestFinished:] in WLAFHTTPRequestOperationManagerWrapper.m:333 :: Request Success
+2015-10-14 14:40:11.494 MCHackathon[8541:3450817] [DEBUG] [WL_AFHTTPRequestOperationManagerWrapper_PACKAGE] -[WLAFHTTPRequestOperationManagerWrapper requestFinished:] in WLAFHTTPRequestOperationManagerWrapper.m:334 :: Response Status Code : 200
+2015-10-14 14:40:11.505 MCHackathon[8541:3450817] [DEBUG] [WL_AFHTTPRequestOperationManagerWrapper_PACKAGE] -[WLAFHTTPRequestOperationManagerWrapper requestFinished:] in WLAFHTTPRequestOperationManagerWrapper.m:335 :: Response Content : {
+  "name": "Meg Johnson",
+  "ccNum": "5455330760000018",
+  "cvc": "098",
+  "mm": "09",
+  "yy": "16",
+  "description": "30% off!",
+  "couponCode": "30off"
+}
+2015-10-14 14:40:16.739 MCHackathon[8541:3450817] [DEBUG] [WL_AFHTTPRequestOperationManagerWrapper_PACKAGE] -[WLAFHTTPRequestOperationManagerWrapper requestFinished:] in WLAFHTTPRequestOperationManagerWrapper.m:333 :: Request Success
+2015-10-14 14:40:16.750 MCHackathon[8541:3450817] [DEBUG] [WL_AFHTTPRequestOperationManagerWrapper_PACKAGE] -[WLAFHTTPRequestOperationManagerWrapper requestFinished:] in WLAFHTTPRequestOperationManagerWrapper.m:334 :: Response Status Code : 200
+2015-10-14 14:40:16.761 MCHackathon[8541:3450817] [DEBUG] [WL_AFHTTPRequestOperationManagerWrapper_PACKAGE] -[WLAFHTTPRequestOperationManagerWrapper requestFinished:] in WLAFHTTPRequestOperationManagerWrapper.m:335 :: Response Content : {
+  "name": "Meg Johnson",
+  "ccNum": "5455330760000018",
+  "cvc": "098",
+  "mm": "09",
+  "yy": "16",
+  "description": "30% off!",
+  "couponCode": "30off"
+}

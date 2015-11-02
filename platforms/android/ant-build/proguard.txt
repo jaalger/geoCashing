@@ -1,0 +1,24 @@
+# view AndroidManifest.xml #generated:43
+-keep class com.estimote.sdk.service.BeaconService { <init>(...); }
+
+# view AndroidManifest.xml #generated:6
+-keep class com.ibm.MCHackathon.CordovaApp { <init>(...); }
+
+# view AndroidManifest.xml #generated:13
+-keep class com.ibm.MCHackathon.ForegroundService { <init>(...); }
+
+# view AndroidManifest.xml #generated:12
+-keep class com.ibm.MCHackathon.GCMIntentService { <init>(...); }
+
+# view AndroidManifest.xml #generated:14
+-keep class com.worklight.androidgap.push.WLBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:36
+-keep class org.altbeacon.beacon.BeaconIntentProcessor { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class org.altbeacon.beacon.service.BeaconService { <init>(...); }
+
+# view AndroidManifest.xml #generated:28
+-keep class org.altbeacon.beacon.startup.StartupBroadcastReceiver { <init>(...); }
+

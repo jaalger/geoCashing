@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Licensed Materials - Property of IBM 5725-I43 (C) Copyright IBM Corp. 2015. All Rights Reserved. US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+xmlns:rim="http://www.blackberry.com/ns/widgets"
+xmlns:android="http://schemas.android.com/apk/res/android"
+id="cordova-plugin-mfp-push"
+version="7.1.0">
+    <name>IBM MobileFirst Platform Foundation - Push Notifications</name>
+    <description>IBM MobileFirst Platform Foundation Cordova Plugin Push Notifications</description>
+    <license>IBM</license>
+    <keywords>cordova,ibm,worklight,mobilefirst,mfp,push</keywords>
+    <repo>https://www.ibm.com/mobilefirst</repo>
+    <issue>https://www.ibm.com/mobilefirst</issue>
+    <engines>
+        <engine name="cordova-android" version=">=3.6.4 <4" />
+        <engine name="cordova-plugman" version=">=5.0.0" />
+    </engines>
+    <platform name="android">
+        <info>
+        There are additional steps needed to get push notifications working on Android, see plugin README.md for details.
+        </info>
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <!-- Don't include INTERNET permission here, since Cordova includes it by default,
+            and when uninstalling it gets removed (https://issues.apache.org/jira/browse/CB-8236) -->
+             <!-- Don't include ACCESS_NETWORK_STATE permission here, since Cordova Network Info Plugin includes it by default
+             and this plugin is installed as a dependency of mfp plugin ,
+            and when uninstalling it gets removed (https://issues.apache.org/jira/browse/CB-8236) -->
+            <!-- Don't include ACCESS_WIFI_STATE permission here, since MFP Codova Plugin includes it by default
+             and this plugin is installed as a dependency of mfp plugin ,
+            and when uninstalling it gets removed (https://issues.apache.org/jira/browse/CB-8236) -->
+            <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+            <uses-permission android:name="android.permission.WAKE_LOCK" />
+            <uses-permission android:name="android.permission.VIBRATE"/>
+            <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+            <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+            <!-- The next two elements MUST stay in this order, with permission before uses-permission. -->
+            <permission android:name="$PACKAGE_NAME.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+            <uses-permission android:name="$PACKAGE_NAME.permission.C2D_MESSAGE" />
+        </config-file>
+        <config-file target="AndroidManifest.xml" parent="/manifest/application">
+            <!-- In order to use the c2dm library, an application must declare a class with the name C2DMReceiver, in its own package, extending com.google.android.c2dm.C2DMBaseReceiver
+			It must also include this section in the manifest, replacing "com.google.android.apps.chrometophone" with its package name. -->
+            <service android:name=".GCMIntentService"/>
+            <service android:name=".ForegroundService"/>
+
+             <!-- Only google service can send data messages for the app. If permission is not set - any other app can generate it -->
+            <receiver android:name="com.worklight.androidgap.push.WLBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+                <intent-filter>
+                    <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                    <category android:name="$PACKAGE_NAME" />
+                </intent-filter>
+                <intent-filter>
+                    <action android:name="android.intent.action.BOOT_COMPLETED" />
+                    <category android:name="$PACKAGE_NAME" />
+                </intent-filter>
+                <intent-filter>
+                    <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                    <category android:name="$PACKAGE_NAME" />
+                </intent-filter>
+            </receiver>
+        </config-file>
+    </platform>
+    <platform name="ios">
+        <info>
+        The push notifications plugin currently only benefits Android.
+        </info>
+    </platform>
+</plugin>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <title>Simplify Payment</title>
+  </head>
+  <body>
+      <button id="checkout-button" style="display:none;">Buy Now</button>
+    <script>
+        function loadData(item) {
+            var button = document.getElementById('checkout-button');
+            
+            button.dataset.scKey = 'sbpb_YzYyNTkxOGEtYjg0Zi00ZTBjLTljNDYtMDM2ZGJjYmY2NzIx';
+            button.dataset.name = item.name;
+            button.dataset.description = item.description;
+            button.dataset.reference = item.referece;
+            button.dataset.amount = item.amount;
+            
+
+            var script = document.createElement('script');
+            script.src = "https://www.simplify.com/commerce/simplify.pay.js";
+            
+            
+            var body = document.getElementsByTagName('body')[0];
+            body.appendChild(script);
+
+            
+            setInterval(function(){
+                button.click();
+            }, 200);
+        }
+    </script>
+  </body>
+</html>

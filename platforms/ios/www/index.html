@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html class=" scroll-enabled"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>MobileFirst</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="cleartype" content="on">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="libs/lungojs/lungo.css">
+    <link rel="stylesheet" href="libs/lungojs/lungo.theme.css">
+    <link rel="stylesheet" href="libs/lungojs/lungo.icon.css">
+    <!-- App Stylesheet -->
+    <link rel="stylesheet" href="libs/lungojs/app.css">
+    <link rel="stylesheet" href="css/main.css">
+
+
+    <!-- load script with wlCommonInit defined before loading cordova.js -->
+    <script type="text/javascript" src="js/mobilefirst.js"></script>
+    <script type="text/javascript" src="js/beacon.js"></script>
+    <script type="text/javascript" src="libs/jquery/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+</head>
+
+<body data-device="tablet" data-position="fixed">
+
+    <section id="login" data-transition="slide" class="active">
+        <article class="active splash">
+            <img src="img/logo.png" class="logo"/>
+            <div class="form">
+                <fieldset class="radius-top" data-icon="user">
+                    <input type="text" placeholder="Username" id="username" />
+                </fieldset>
+                <fieldset class="radius-bottom shadow" data-icon="lock">
+                    <input type="password" placeholder="Password" id="password" />
+                </fieldset>
+                <br/>
+                <button class="anchor" data-icon="lock" data-icon="user" data-label="Login" id="login-button"></button>
+            </div>
+            <span class="copyright text thin">Copyright &copy; 2015</span>
+        </article>
+    </section>
+
+    <!-- Lungo dependencies -->
+    <script src="libs/lungojs/quo.js"></script>
+    <script src="libs/lungojs/lungo.js"></script><div class="notification"><div class="window"></div></div>
+    <!-- LungoJS - Sandbox App -->
+    <script>
+        Lungo.init({
+            name: 'MobileFirstApp',
+            version: '1.0.0',
+            resources: [
+                'pages/page-task.html',
+                'pages/page-event.html',
+                'pages/page-task-detail.html',
+                'pages/page-prize.html'
+            ],
+            history: true
+        });
+    </script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>

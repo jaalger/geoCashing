@@ -1,0 +1,100 @@
+{
+    "cordova-plugin-mfp": {
+        "source": {
+            "type": "local",
+            "path": "/Applications/IBM/MobileFirst-CLI/mobilefirst-cli/node_modules/cordovacmd/cordova/plugins/cordova-plugin-mfp"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "org.apache.cordova.device": {
+        "source": {
+            "type": "local",
+            "path": "/Applications/IBM/MobileFirst-CLI/mobilefirst-cli/node_modules/cordovacmd/cordova/plugins/cordova-plugin-device"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "org.apache.cordova.dialogs": {
+        "source": {
+            "type": "local",
+            "path": "/Applications/IBM/MobileFirst-CLI/mobilefirst-cli/node_modules/cordovacmd/cordova/plugins/cordova-plugin-dialogs"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "org.apache.cordova.geolocation": {
+        "source": {
+            "type": "local",
+            "path": "/Applications/IBM/MobileFirst-CLI/mobilefirst-cli/node_modules/cordovacmd/cordova/plugins/cordova-plugin-geolocation"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "org.apache.cordova.globalization": {
+        "source": {
+            "type": "local",
+            "path": "/Applications/IBM/MobileFirst-CLI/mobilefirst-cli/node_modules/cordovacmd/cordova/plugins/cordova-plugin-globalization"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "org.apache.cordova.inappbrowser": {
+        "source": {
+            "type": "local",
+            "path": "/Applications/IBM/MobileFirst-CLI/mobilefirst-cli/node_modules/cordovacmd/cordova/plugins/cordova-plugin-inappbrowser"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "org.apache.cordova.network-information": {
+        "source": {
+            "type": "local",
+            "path": "/Applications/IBM/MobileFirst-CLI/mobilefirst-cli/node_modules/cordovacmd/cordova/plugins/cordova-plugin-network-information"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "cordova-plugin-mfp-jsonstore": {
+        "source": {
+            "type": "local",
+            "path": "/Applications/IBM/MobileFirst-CLI/mobilefirst-cli/node_modules/cordovacmd/cordova/plugins/cordova-plugin-mfp-jsonstore"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-mfp-push": {
+        "source": {
+            "type": "local",
+            "path": "/Applications/IBM/MobileFirst-CLI/mobilefirst-cli/node_modules/cordovacmd/cordova/plugins/cordova-plugin-mfp-push"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.unarin.cordova.beacon": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/petermetz/cordova-plugin-ibeacon.git",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-estimote": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/evothings/phonegap-estimotebeacons.git",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-inappbrowser": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-inappbrowser"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}
